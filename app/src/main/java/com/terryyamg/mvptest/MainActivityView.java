@@ -6,4 +6,8 @@ public interface MainActivityView {
 
     void setSpinner(String[] data);
 
+    void setListViewAdapter(String[] data);
+
+    void setListView(String[] data);
+
 }

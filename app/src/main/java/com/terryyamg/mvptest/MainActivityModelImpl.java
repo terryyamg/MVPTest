@@ -10,5 +10,7 @@ public class MainActivityModelImpl implements MainActivityModel {
         //放入資訊
         view.setAdapter(data);
         view.setSpinner(data);
+        view.setListViewAdapter(data);
+        view.setListView(data);
     }
 }
